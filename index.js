@@ -231,7 +231,7 @@ Using the feet function below do the following:
 */
 
 function feet(cm){
-  return (cm * 0.0328084)
+  return (cm / 30.48)
 }
 console.log('Task 5b:', feet(5));
 
